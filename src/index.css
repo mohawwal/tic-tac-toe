@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+.App.dark {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  margin: 0 auto;
+  color: rgb(255, 252, 247);
+}
+
+.status {
+  margin: 30px 0px;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.board-row button {
+  padding: 30px;
+  width: 90px;
+  height: 90px;
+  font-size: 29px;
+  font-weight: 600;
+  background-color: rgb(252, 252, 252);
+  border: none;
+}
+
+.board-row.dark button {
+  padding: 30px;
+  width: 90px;
+  height: 90px;
+  font-size: 29px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(39, 39, 39);
+}
+
+.btn.right-bottom {
+  border-right: 3px solid red;
+  border-bottom: 3px solid rgb(0, 208, 255);
+}
+
+.btn.left-bottom {
+  border-left: 3px solid goldenrod;
+  border-bottom: 3px solid darkmagenta;
+}
+
+.btn.bottom {
+  border-bottom: 3px solid rgb(3, 63, 69);
+}
+
+.btn.right {
+  border-right: 3px solid deeppink;
+}
+
+.btn.left {
+  border-left: 3px solid purple;
+}
+
+.game {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.game-board,
+.game-info {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+ol li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.list li:first-child button {
+  width: 200px;
+  background-color: rgb(0, 0, 73);
+  color: white;
+  font-size: 16px;
+}
+
+.dark li:first-child button {
+  width: 200px;
+  background-color: rgb(254, 242, 219);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+ol li:first-child button:hover,
+ol li:first-child button:focus {
+  background-color: rgb(55, 0, 0);
+}
+
+li button {
+  border: none;
+  background-color: whitesmoke;
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+ol li:not(:first-child) {
+  display: none;
+}
+
+.mode-icons {
+  font-size: 28px;
+  margin: 10px auto;
+  margin-left: 80%;
+}
