@@ -106,14 +106,14 @@ ol li {
 }
 
 .list li:first-child button {
-  width: 200px;
+  width: 300px;
   background-color: rgb(0, 0, 73);
   color: white;
   font-size: 16px;
 }
 
 .dark li:first-child button {
-  width: 200px;
+  width: 300px;
   background-color: rgb(254, 242, 219);
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -135,7 +135,8 @@ li button {
 }
 
 ol li:not(:first-child) {
-  display: none;
+  margin: 0 auto;
+  opacity: 40%;
 }
 
 .mode-icons {
@@ -145,7 +146,7 @@ ol li:not(:first-child) {
 }
 
 .home {
-  margin-top: 5%;
+  padding-top: 5%;
   display: flex;
   align-items: center;
   gap: 10%;
