@@ -142,3 +142,24 @@ ol li:not(:first-child) {
   margin: 10px auto;
   margin-left: 80%;
 }
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+img {
+  width: 80%;
+}
+
+button {
+  color: black;
+  background-color: rgb(255, 167, 4);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
